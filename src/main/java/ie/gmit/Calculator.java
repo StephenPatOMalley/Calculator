@@ -10,11 +10,25 @@ public class Calculator {
         return addedNum;
     }
 
-    public int SubTract(int firstNum, int secondNum){
+    public int Subtract(int firstNum, int secondNum){
         int subNum = 0;
         subNum = firstNum - secondNum;
 
         return subNum;
+    }
+
+    public int Multiply(int firstNum, int secondNum){
+        int mulNum = 0;
+        mulNum = firstNum * secondNum;
+
+        return mulNum;
+    }
+
+    public int Divide(int firstNum, int secondNum){
+        int divNum = 0;
+        divNum = firstNum / secondNum;
+
+        return divNum;
     }
 
 }
